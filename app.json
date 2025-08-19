@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "HalfPoint-Mapping",
+    "slug": "HalfPoint-Mapping",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/halfpoint.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.mikaylamccormack.halfpointmapping",
+      "appleTeamId": "MCTT2A8Q8B"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.mikaylamccormack.halfpointmapping"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": ["facebookLogin", "4026280564315255"],
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps._some_id_here_"
+        }
+      ],
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "4940023662889962",
+          "clientToken": "9d79e7af7abce65cb1d37ae7c251f2a6",
+          "displayName": "HalfPoint-Mapping",
+          "scheme": "fb4940023662889962"
+        }
+      ]
+    ]
+  }
+}
