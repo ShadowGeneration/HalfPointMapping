@@ -1,4 +1,4 @@
-# HalfPoint-Mapping - UTK CS401 Senior Design Project
+# HalfPoint-Mapping 
 
 ## Introduction
 
